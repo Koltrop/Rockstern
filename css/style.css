@@ -1,27 +1,67 @@
 body {
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
 }
 
 img {
     padding-top: 120px;
 }
 
-p {
-    line-height: 32px;
-    max-width: 776px;
-    padding-top: 199px;
-}
-
 .btn {
-    margin-top: 199px;
+    margin-top: 41px;
     width: 209px;
     border-radius: 30px;
     background-color: #424242;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+.block__2{
+    margin-top:199px;
+}
+.wrap{
+    max-width: 806px;
+    margin: 0 auto;
+    padding-bottom: 106px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+p {
+    font-size: 20px;
+    line-height: 32px;
+}
+.logo{
+    width: 100%; 
+    max-width: 454px;
+}
+@media (max-width: 767px){
+    .logo {
+        max-width: 214px;
+        padding-top: 75px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .block__2 {
+        margin-top: 189px;
+    }
+    .btn {
+        margin-top: 27px;
+        font-size: 15px;
+        width: 163.57px;
+        height: 36px;
+    }
 }
